@@ -1,0 +1,22 @@
+security:
+  oauth2:
+    client:
+      clientId: statistics-service
+      clientSecret: ${STATISTICS_SERVICE_PASSWORD}
+      accessTokenUri: http://auth-service:5000/uaa/oauth/token
+      grant-type: client_credentials
+      scope: server
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:${MONGODB_PASSWORD}@localhost:27017/piggymetrics?authSource=piggymetrics&readPreference=primary&ssl=false
+      database: piggymetrics
+
+server:
+  servlet:
+    context-path: /statistics
+  port: 7000
+
+rates:
+  url: https://api.exchangeratesapi.io

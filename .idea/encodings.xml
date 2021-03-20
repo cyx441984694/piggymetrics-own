@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/accountservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/authservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/monitoring" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/notificationservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/registry" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/statisticsservice" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/turbinestreamservice" charset="UTF-8" />
+  </component>
+</project>
