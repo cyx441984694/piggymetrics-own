@@ -41,10 +41,10 @@
         <module>monitoring</module>
         <module>registry</module>
         <module>gateway</module>
-        <module>auth-service</module>
-        <module>account-service</module>
-        <module>statistics-service</module>
-        <module>notification-service</module>
-        <module>turbine-stream-service</module>
+        <module>authservice</module>
+        <module>accountservice</module>
+        <module>statisticsservice</module>
+        <module>notificationservice</module>
+        <module>turbinestreamservice</module>
     </modules>
 </project>
