@@ -1,0 +1,54 @@
+# Created on 2021-03-20T20:53:06.798
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created on 2021-03-20T20:53:06.839
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created on 2021-03-20T20:53:06.911
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created on 2021-03-20T20:53:13.620
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2021-03-20T20:53:13.621
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/D:/.m2/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created on 2021-03-20T20:53:13.623
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+
+# Created on 2021-03-20T20:53:13.624
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2021-03-20T20:53:13.625
+WARNING: All illegal access operations will be denied in a future release
+
+# Created on 2021-03-20T20:53:14.210
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2021-03-20T20:53:14.210
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/D:/.m2/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created on 2021-03-20T20:53:14.211
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+
+# Created on 2021-03-20T20:53:14.211
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2021-03-20T20:53:14.212
+WARNING: All illegal access operations will be denied in a future release
+
+# Created on 2021-03-20T20:53:17.007
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2021-03-20T20:53:17.007
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/D:/.m2/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created on 2021-03-20T20:53:17.008
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+
+# Created on 2021-03-20T20:53:17.009
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2021-03-20T20:53:17.009
+WARNING: All illegal access operations will be denied in a future release
+

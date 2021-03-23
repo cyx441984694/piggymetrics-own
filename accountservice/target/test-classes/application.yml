@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+      database: piggymetics
+      port: 0

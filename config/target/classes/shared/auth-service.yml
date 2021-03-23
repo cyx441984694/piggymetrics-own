@@ -1,0 +1,22 @@
+###It is not working, no idea why
+#spring:
+#  data:
+#    mongodb:
+#      host: 127.0.0.1
+#      username: user
+#      password: password
+#      database: piggymetrics
+#      ssl-enabled: false
+#      authentication-database: piggymetrics
+#      port: 27017
+
+spring:
+  data:
+    mongodb:
+      uri: mongodb://user:${MONGODB_PASSWORD}@localhost:27017/piggymetrics?authSource=piggymetrics&readPreference=primary&ssl=false
+      database: piggymetrics
+
+server:
+  servlet:
+    context-path: /uaa
+  port: 5000

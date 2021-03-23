@@ -1,0 +1,5 @@
+com\winnie\accountservice\client\StatisticsServiceClientFallbackTest.class
+com\winnie\accountservice\service\AccountServiceTest.class
+com\winnie\accountservice\controller\AccountControllerTest.class
+com\winnie\accountservice\AccountApplicationTests.class
+com\winnie\accountservice\repository\AccountRepositoryTest.class

@@ -1,0 +1,17 @@
+com\winnie\accountservice\AccountApplication.class
+com\winnie\accountservice\client\AuthServiceClient.class
+com\winnie\accountservice\domain\Item.class
+com\winnie\accountservice\domain\Currency.class
+com\winnie\accountservice\repository\AccountRepository.class
+com\winnie\accountservice\client\StatisticsServiceClient.class
+com\winnie\accountservice\service\AccountService.class
+com\winnie\accountservice\domain\User.class
+com\winnie\accountservice\service\security\CustomUserInfoTokenService.class
+com\winnie\accountservice\domain\Saving.class
+com\winnie\accountservice\service\AccountServiceImpl.class
+com\winnie\accountservice\controller\AccountController.class
+com\winnie\accountservice\client\StatisticsServiceClientFallback.class
+com\winnie\accountservice\domain\Account.class
+com\winnie\accountservice\config\ResourceServerConfig.class
+com\winnie\accountservice\controller\ErrorHandler.class
+com\winnie\accountservice\domain\TimePeriod.class

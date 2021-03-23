@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.winnie.gateway.GatewayApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 15.307 s - in com.winnie.gateway.GatewayApplicationTests

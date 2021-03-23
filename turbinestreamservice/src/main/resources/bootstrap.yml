@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: turbine-stream-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+      fail-test: true
+      password: ${CONFIG_SERVICE_PASSWORD}
+      username: user

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.winnie.accountservice.repository.AccountRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 8.444 s - in com.winnie.accountservice.repository.AccountRepositoryTest

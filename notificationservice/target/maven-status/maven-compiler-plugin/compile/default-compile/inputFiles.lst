@@ -1,0 +1,17 @@
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\EmailService.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\repository\RecipientRepository.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\NotificationServiceImpl.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\repository\converter\FrequencyReaderConverter.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\RecipientService.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\domain\Recipient.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\domain\Frequency.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\config\ResourceServerConfig.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\controller\RecipientController.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\client\AccountServiceClient.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\NotificationServiceApplication.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\EmailServiceImpl.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\RecipientServiceImpl.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\service\NotificationService.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\domain\NotificationSettings.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\domain\NotificationType.java
+E:\JAVA\springcloud\piggymetrics\notificationservice\src\main\java\com.winnie.notification\repository\converter\FrequencyWriteConverter.java

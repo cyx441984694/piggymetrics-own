@@ -1,0 +1,18 @@
+# Created on 2021-03-15T19:54:29.139
+Java HotSpot(TM) 64-Bit Server VM warning: Ignoring option MaxPermSize; support was removed in 8.0
+
+# Created on 2021-03-15T19:54:31.908
+WARNING: An illegal reflective access operation has occurred
+
+# Created on 2021-03-15T19:54:31.909
+WARNING: Illegal reflective access by org.springframework.cglib.core.ReflectUtils$1 (file:/D:/.m2/repository/org/springframework/spring-core/5.0.7.RELEASE/spring-core-5.0.7.RELEASE.jar) to method java.lang.ClassLoader.defineClass(java.lang.String,byte[],int,int,java.security.ProtectionDomain)
+
+# Created on 2021-03-15T19:54:31.909
+WARNING: Please consider reporting this to the maintainers of org.springframework.cglib.core.ReflectUtils$1
+
+# Created on 2021-03-15T19:54:31.912
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+
+# Created on 2021-03-15T19:54:31.913
+WARNING: All illegal access operations will be denied in a future release
+

@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.winnie.monitoring.MonitoringApplicationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.645 s - in com.winnie.monitoring.MonitoringApplicationTest

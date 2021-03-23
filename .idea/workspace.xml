@@ -1,0 +1,1867 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="1dc19db2-d174-4ea0-8046-eb9e4dd0543f" name="Default Changelist" comment="change">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/account-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/account-service.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/AccountApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/client/AuthServiceClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/client/StatisticsServiceClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/client/StatisticsServiceClientFallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/config/ResourceServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/controller/AccountController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/controller/ErrorHandler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/Currency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/Saving.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/TimePeriod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/repository/AccountRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/service/AccountService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/service/AccountServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/classes/com/winnie/accountservice/service/security/CustomUserInfoTokenService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/2021-03-14T17-27-37_596.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/TEST-com.winnie.accountservice.AccountApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/TEST-com.winnie.accountservice.client.StatisticsServiceClientFallbackTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/TEST-com.winnie.accountservice.controller.AccountControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/TEST-com.winnie.accountservice.repository.AccountRepositoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/TEST-com.winnie.accountservice.service.AccountServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/com.winnie.accountservice.AccountApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/com.winnie.accountservice.client.StatisticsServiceClientFallbackTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/com.winnie.accountservice.controller.AccountControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/com.winnie.accountservice.repository.AccountRepositoryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/surefire-reports/com.winnie.accountservice.service.AccountServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/com/winnie/accountservice/AccountApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/com/winnie/accountservice/client/StatisticsServiceClientFallbackTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/com/winnie/accountservice/controller/AccountControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/com/winnie/accountservice/repository/AccountRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/accountservice/target/test-classes/com/winnie/accountservice/service/AccountServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/auth-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/auth-service.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/AuthApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/config/OAuth2AuthorizationConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/config/WebSecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/domain/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/service/UserServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/classes/com/winnie/auth/service/security/MongoUserDetailsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/2021-03-14T23-45-59_247-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/2021-03-14T23-46-00_155.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/TEST-com.winnie.auth.AuthApplicationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/TEST-com.winnie.auth.controller.UserControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/TEST-com.winnie.auth.repository.UserRepositoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/TEST-com.winnie.auth.service.UserServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/TEST-com.winnie.auth.service.security.MongoUserDetailsServiceTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/com.winnie.auth.AuthApplicationTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/com.winnie.auth.controller.UserControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/com.winnie.auth.repository.UserRepositoryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/com.winnie.auth.service.UserServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/surefire-reports/com.winnie.auth.service.security.MongoUserDetailsServiceTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/boostrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/com/winnie/auth/AuthApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/com/winnie/auth/controller/UserControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/com/winnie/auth/repository/UserRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/com/winnie/auth/service/UserServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/authservice/target/test-classes/com/winnie/auth/service/security/MongoUserDetailsServiceTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/com/winnie/config/ConfigApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/com/winnie/config/SecurityConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/account-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/auth-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/gateway.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/monitoring.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/notification-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/registry.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/statistics-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/classes/shared/turbine-stream-service.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/config-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/config.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/com/winnie/gateway/GatewayApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/attribution.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/css/animation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/css/launch.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-100/museo-100.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-100/museo-100.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-100/museo-100.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-100/museo-100.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-300/museo-300.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-300/museo-300.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-300/museo-300.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-300/museo-300.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-500/museo-500.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-500/museo-500.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-500/museo-500.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/fonts/museo-500/museo-500.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/1pagesprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/1pagesprites@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/github.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/icons@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/linesbackground.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/linesbackground@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logo.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logo@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logo_large.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logo_large@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logotext.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logotext@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logotext_large.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/logotext_large@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/piggy.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/piggy@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/piggy_large.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/piggy_large@2x.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/preloader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/sprites.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/sprites@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/images/userpic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/dashboard.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/launch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/lib/extrascripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/lib/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/lib/touchscreens.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/classes/static/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/gateway-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/gateway.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/surefire-reports/2021-03-15T19-51-13_317.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/surefire-reports/TEST-com.winnie.gateway.GatewayApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/surefire-reports/com.winnie.gateway.GatewayApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/test-classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gateway/target/test-classes/com/winnie/gateway/GatewayApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/classes/com/winnie/monitoring/MonitoringApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/monitoring-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/monitoring.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/surefire-reports/2021-03-15T19-54-29_136.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/surefire-reports/TEST-com.winnie.monitoring.MonitoringApplicationTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/surefire-reports/com.winnie.monitoring.MonitoringApplicationTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/test-classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/monitoring/target/test-classes/com/winnie/monitoring/MonitoringApplicationTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/NotificationServiceApplication$CustomConversionsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/NotificationServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/client/AccountServiceClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/config/ResourceServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/controller/RecipientController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/domain/Frequency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/domain/NotificationSettings.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/domain/NotificationType.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/domain/Recipient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/repository/RecipientRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/repository/converter/FrequencyReaderConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/repository/converter/FrequencyWriteConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/EmailService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/EmailServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/NotificationService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/NotificationServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/RecipientService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/RecipientServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/classes/com/winnie/notification/service/RecipientServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/notification-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/notification-service.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/2021-03-15T20-33-47_943-jvmRun3.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/2021-03-15T20-33-49_000.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.NotificationServiceApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.controller.RecipientControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.repository.RecipientRepositoryTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.service.EmailServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.service.NotificationServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/TEST-com.winnie.notification.service.RecipientServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.NotificationServiceApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.controller.RecipientControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.repository.RecipientRepositoryTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.service.EmailServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.service.NotificationServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/surefire-reports/com.winnie.notification.service.RecipientServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/NotificationServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/controller/RecipientControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/repository/RecipientRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/service/EmailServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/service/NotificationServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notificationservice/target/test-classes/com/winnie/notification/service/RecipientServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/classes/com/winnie/registry/RegistryApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/registry-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/registry/target/registry.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/account-service.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/StatisticsApplication$CustomConversionsConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/StatisticsApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/client/ExchangeRatesClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/client/ExchangeRatesClientFallback.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/config/ResourceServerConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/controller/StatisticsController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/Account.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/Currency.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/ExchangeRatesContainer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/Saving.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/TimePeriod.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/timeseries/DataPoint.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/timeseries/DataPointId.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/timeseries/ItemMetric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/domain/timeseries/StatisticMetric.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/repository/DataPointRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/repository/converter/DataPointIdReaderConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/repository/converter/DataPointIdWriterConverter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/service/ExchangeRatesService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/service/ExchangeRatesServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/service/StatisticsService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/service/StatisticsServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/classes/com/winnie/statistics/service/security/CustomerUserInfoTokenServices.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/statistics-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/2021-03-20T20-53-05_351-jvmRun2.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/2021-03-20T20-53-05_351-jvmRun3.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/2021-03-20T20-53-06_797.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/TEST-com.winnie.statistics.StatisticsServiceApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/TEST-com.winnie.statistics.client.ExchangeRatesClientTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/TEST-com.winnie.statistics.controller.StatisticsControllerTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/TEST-com.winnie.statistics.service.ExchangeRatesServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/TEST-com.winnie.statistics.service.StatisticsServiceImplTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/com.winnie.statistics.StatisticsServiceApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/com.winnie.statistics.client.ExchangeRatesClientTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/com.winnie.statistics.controller.StatisticsControllerTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/com.winnie.statistics.service.ExchangeRatesServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/surefire-reports/com.winnie.statistics.service.StatisticsServiceImplTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/StatisticsServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/client/ExchangeRatesClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/controller/StatisticsControllerTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/repository/DataPointRepositoryTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/service/ExchangeRatesServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/com/winnie/statistics/service/StatisticsServiceImplTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/classes/com/winnie/turbine/TurbineStreamServiceApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/surefire-reports/2021-03-15T20-38-42_305-jvmRun1.dump" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/surefire-reports/2021-03-15T20-38-43_228.dumpstream" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/surefire-reports/TEST-com.winnie.turbine.TurbineStreamServiceApplicationTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/surefire-reports/com.winnie.turbine.TurbineStreamServiceApplicationTests.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/test-classes/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/test-classes/com/winnie/turbine/TurbineStreamServiceApplicationTests.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/turbine-stream-service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/turbinestreamservice/target/turbine-stream-service.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.env.travis" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accountservice/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/accountservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authservice/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/authservice/src/test/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/authservice/src/test/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/src/main/resources/shared/turbine-stream-service.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/src/main/resources/shared/turbine-stream-service.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/monitoring/src/main/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/monitoring/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/notificationservice/src/main/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/notificationservice/target/classes/boostrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/registry/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registry/src/main/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/registry/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbinestreamservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/turbinestreamservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbinestreamservice/src/main/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/turbinestreamservice/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/turbinestreamservice/src/test/resources/boostrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/statisticsservice/target/test-classes/bootstrap.yml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/accountservice/target/" />
+    <ignored path="$PROJECT_DIR$/authservice/target/" />
+    <ignored path="$PROJECT_DIR$/gateway/target/" />
+    <ignored path="$PROJECT_DIR$/config/target/" />
+    <ignored path="$PROJECT_DIR$/monitoring/target/" />
+    <ignored path="$PROJECT_DIR$/notificationservice/target/" />
+    <ignored path="$PROJECT_DIR$/statisticsservice/target/" />
+    <ignored path="$PROJECT_DIR$/turbinestreamservice/target/" />
+    <ignored path="$PROJECT_DIR$/registry/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="piggymetrics" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbinestreamservice/src/main/java/com/winnie/turbine/TurbineStreamServiceApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="253">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#540#541#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbinestreamservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/notificationservice/pom.xml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registry/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="966">
+              <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/registry.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/turbine-stream-service.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gateway/src/test/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/turbinestreamservice/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>title11museo300</find>
+      <find>modal-delete</find>
+      <find>modalcurrency</find>
+      <find>turnOfModal</find>
+      <find>initStatisc</find>
+      <find>case &quot;first&quot;</find>
+      <find>expenseup</find>
+      <find>backloginform</find>
+      <find>ajaxOptions</find>
+      <find>usermail</find>
+      <find>demobutton</find>
+      <find>img</find>
+      <find>guava</find>
+      <find>jsonpath</find>
+      <find>customeruser</find>
+      <find>AuthenticationManagerBuilder</find>
+      <find>configure</find>
+      <find>authenticationManagerBean</find>
+      <find>Client</find>
+      <find>userDetail</find>
+      <find>RefreshAutoConfiguration</find>
+      <find>rabbitMQ</find>
+      <find>jakarta.xml.bind</find>
+      <find>rates-client</find>
+      <find>StatisticsServiceClient</find>
+      <find>statistics-service</find>
+      <find>y</find>
+      <find>config:8888</find>
+      <find>eureka</find>
+      <find>8761</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>localhost:8888</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/mongodb/Dockerfile" />
+        <option value="$PROJECT_DIR$/monitoring/Dockerfile" />
+        <option value="$PROJECT_DIR$/notificationservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/registry/Dockerfile" />
+        <option value="$PROJECT_DIR$/statisticsservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/turbinestreamservice/Dockerfile" />
+        <option value="$PROJECT_DIR$/Dockerfile" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/service/ExchangeRatesServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/accountservice/src/test/java/com.winnie.accountservice/controller/AccountControllerTest.java" />
+        <option value="$PROJECT_DIR$/accountservice/src/test/java/com.winnie.accountservice/client/StatisticsServiceClientFallbackTest.java" />
+        <option value="$PROJECT_DIR$/accountservice/pom.xml" />
+        <option value="$PROJECT_DIR$/docker-compose.dev.yml" />
+        <option value="$PROJECT_DIR$/authservice/pom.xml" />
+        <option value="$PROJECT_DIR$/authservice/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/auth-service.yml" />
+        <option value="$PROJECT_DIR$/authservice/src/test/java/com.winnie.auth/service/UserServiceTest.java" />
+        <option value="$PROJECT_DIR$/config/pom.xml" />
+        <option value="$PROJECT_DIR$/gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/monitoring/pom.xml" />
+        <option value="$PROJECT_DIR$/statisticsservice/pom.xml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/notification-service.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/account-service.yml" />
+        <option value="$PROJECT_DIR$/notificationservice/pom.xml" />
+        <option value="$PROJECT_DIR$/notificationservice/src/main/java/com.winnie.notification/service/NotificationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/notificationservice/src/test/java/com.winnie.notification/service/NotificationServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/statistics-service.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/client/ExchangeRatesClient.java" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/domain/ExchangeRatesContainer.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/test/resources/application.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/service/StatisticsServiceImpl.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/service/StatisticsServiceImplTest.java" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/client/ExchangeRatesClientTest.java" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/accountservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/monitoring/src/main/resources/boostrap.yml" />
+        <option value="$PROJECT_DIR$/notificationservice/src/main/resources/boostrap.yml" />
+        <option value="$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/turbinestreamservice/src/main/resources/boostrap.yml" />
+        <option value="$PROJECT_DIR$/.env.travis" />
+        <option value="$PROJECT_DIR$/authservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/registry/pom.xml" />
+        <option value="$PROJECT_DIR$/registry/src/main/resources/boostrap.yml" />
+        <option value="$PROJECT_DIR$/turbinestreamservice/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/turbinestreamservice/pom.xml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml" />
+        <option value="$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/config/src/main/resources/shared/turbine-stream-service.yml" />
+        <option value="$PROJECT_DIR$/registry/src/main/resources/bootstrap.yml" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="statistics-service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="522" />
+    <option name="y" value="75" />
+    <option name="width" value="1668" />
+    <option name="height" value="959" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.accountservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="accountservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.auth" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="authservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="shared" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="mongodb" type="462c0819:PsiDirectoryNode" />
+              <item name="dump" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com.winnie.monitoring" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="monitoring" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="notificationservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="notificationservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="notificationservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="notificationservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="notificationservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="registry" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="statisticsservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="turbine" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="piggymetrics" type="b2602c69:ProjectViewProjectNode" />
+              <item name="piggymetrics" type="462c0819:PsiDirectoryNode" />
+              <item name="turbinestreamservice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1616509434983" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.winnie.auth.service" />
+      <recent name="com.winnie.authservice.service" />
+      <recent name="com.winnie.statistics.repository" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JAVA\springcloud\piggymetrics\statisticsservice\src\main\java\com\winnie\statistics" />
+      <recent name="E:\JAVA\springcloud\piggymetrics\gateway\src\main\resources" />
+      <recent name="E:\JAVA\springcloud\piggymetrics\turbine-stream-service" />
+      <recent name="E:\JAVA\springcloud\piggymetrics\statistics-service" />
+      <recent name="E:\JAVA\springcloud\piggymetrics\registry" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\JAVA\springcloud\piggymetrics\notification-service" />
+      <recent name="E:\JAVA\springcloud\piggymetrics\config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.TurbineStreamServiceApplication">
+    <configuration name="init.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="piggymetrics" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="INTERPRETER_PATH" value="" />
+      <option name="PROJECT_INTERPRETER" value="false" />
+      <option name="WORKING_DIRECTORY" value="E:\JAVA\springcloud\piggymetrics\mongodb" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="E:\JAVA\springcloud\piggymetrics\mongodb\init.sh" />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="accountservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.winnie.accountservice.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.winnie.accountservice.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.winnie.accountservice.controller.AccountControllerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ExchangeRatesClientTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="statisticsservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.winnie.statistics.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.winnie.statistics.client" />
+      <option name="MAIN_CLASS_NAME" value="com.winnie.statistics.client.ExchangeRatesClientTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="authservice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.winnie.auth.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.winnie.auth.controller" />
+      <option name="MAIN_CLASS_NAME" value="com.winnie.auth.controller.UserControllerTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="accountservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.accountservice.AccountApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="authservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.auth.AuthApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.config.ConfigApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.gateway.GatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitoringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="monitoring" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.monitoring.MonitoringApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotificationServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="notificationservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.notification.NotificationServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegistryApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="registry" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.winnie.registry.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.registry.RegistryApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StatisticsApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="statisticsservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.statistics.StatisticsApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TurbineStreamServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="turbinestreamservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.winnie.turbine.TurbineStreamServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.RegistryApplication" />
+        <item itemvalue="Bash.init.sh" />
+        <item itemvalue="JUnit.UserControllerTest" />
+        <item itemvalue="JUnit.AccountControllerTest" />
+        <item itemvalue="JUnit.ExchangeRatesClientTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1dc19db2-d174-4ea0-8046-eb9e4dd0543f" name="Default Changelist" comment="" />
+      <created>1613045416035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613045416035</updated>
+      <workItem from="1613045419356" duration="5506000" />
+      <workItem from="1613132594616" duration="6168000" />
+      <workItem from="1613185552055" duration="42346000" />
+      <workItem from="1613738499148" duration="18935000" />
+      <workItem from="1614335127852" duration="41324000" />
+      <workItem from="1614782650106" duration="2592000" />
+      <workItem from="1614998943276" duration="20427000" />
+      <workItem from="1615208957776" duration="1738000" />
+      <workItem from="1615297407999" duration="1440000" />
+      <workItem from="1615604312699" duration="11091000" />
+      <workItem from="1615732550541" duration="5920000" />
+      <workItem from="1615808831909" duration="6290000" />
+      <workItem from="1615984276270" duration="2206000" />
+      <workItem from="1616208678700" duration="18870000" />
+      <workItem from="1616487343226" duration="10564000" />
+    </task>
+    <task id="LOCAL-00001" summary="travis CI">
+      <created>1616247335731</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616247335731</updated>
+    </task>
+    <task id="LOCAL-00002" summary="travis CI build">
+      <created>1616297122793</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616297122793</updated>
+    </task>
+    <task id="LOCAL-00003" summary="change config url">
+      <created>1616299574990</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1616299574990</updated>
+    </task>
+    <task id="LOCAL-00004" summary="change config url">
+      <created>1616302876575</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1616302876575</updated>
+    </task>
+    <task id="LOCAL-00005" summary="change config url to localhost">
+      <created>1616303624485</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1616303624485</updated>
+    </task>
+    <task id="LOCAL-00006" summary="change .travis">
+      <created>1616332617992</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1616332617992</updated>
+    </task>
+    <task id="LOCAL-00007" summary="change back to config">
+      <created>1616333781900</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1616333781900</updated>
+    </task>
+    <task id="LOCAL-00008" summary="change back to config">
+      <created>1616334834403</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1616334834403</updated>
+    </task>
+    <task id="LOCAL-00009" summary="change back to config">
+      <created>1616334927354</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1616334927354</updated>
+    </task>
+    <task id="LOCAL-00010" summary="change .travis.yml">
+      <created>1616487572810</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1616487572810</updated>
+    </task>
+    <task id="LOCAL-00011" summary="change to localhost">
+      <created>1616488816567</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1616488816567</updated>
+    </task>
+    <task id="LOCAL-00012" summary="change to localhost">
+      <created>1616490372447</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616490372447</updated>
+    </task>
+    <task id="LOCAL-00013" summary="change to config">
+      <created>1616490675944</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1616490675944</updated>
+    </task>
+    <task id="LOCAL-00014" summary="skip test">
+      <created>1616490836252</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1616490836252</updated>
+    </task>
+    <task id="LOCAL-00015" summary="skip test and with simple travis.yml">
+      <created>1616491174205</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1616491174205</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="StatisticsServiceImplTest_shouldFailWithNullAccountName - 2021.03.20 at 20h 36m 22s.xml">
+      <configuration name="StatisticsServiceImplTest.shouldFailWithNullAccountName" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest_shouldRetrieveExchangeRatesForSpecifiedCurrency - 2021.03.20 at 20h 37m 53s.xml">
+      <configuration name="ExchangeRatesClientTest.shouldRetrieveExchangeRatesForSpecifiedCurrency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest_shouldRetrieveExchangeRatesForSpecifiedCurrency - 2021.03.20 at 20h 39m 06s.xml">
+      <configuration name="ExchangeRatesClientTest.shouldRetrieveExchangeRatesForSpecifiedCurrency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest - 2021.03.20 at 20h 41m 12s.xml">
+      <configuration name="ExchangeRatesClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest_shouldRetrieveExchangeRatesForSpecifiedCurrency - 2021.03.20 at 20h 44m 26s.xml">
+      <configuration name="ExchangeRatesClientTest.shouldRetrieveExchangeRatesForSpecifiedCurrency" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest - 2021.03.20 at 20h 45m 14s.xml">
+      <configuration name="ExchangeRatesClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest - 2021.03.20 at 20h 51m 05s.xml">
+      <configuration name="ExchangeRatesClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ExchangeRatesClientTest - 2021.03.20 at 20h 52m 07s.xml">
+      <configuration name="ExchangeRatesClientTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AccountControllerTest - 2021.03.21 at 12h 03m 05s.xml">
+      <configuration name="AccountControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserControllerTest - 2021.03.21 at 21h 28m 06s.xml">
+      <configuration name="UserControllerTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="195417000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="506" y="103" width="1668" height="959" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.91719747" visible="true" weight="0.2699005" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" sideWeight="0.08280255" side_tool="true" weight="0.33100775" />
+      <window_info id="Web" order="6" side_tool="true" />
+      <window_info id="Structure" order="7" sideWeight="0.30809858" weight="0.24521276" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295063" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.8152097" weight="0.47309136" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.44457144" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289941" />
+      <window_info anchor="bottom" id="Spring" order="7" weight="0.32524806" />
+      <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.18479033" side_tool="true" weight="0.44878048" />
+      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.3263506" />
+      <window_info anchor="bottom" id="Database Changes" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="12" sideWeight="0.30177516" weight="0.17925592" />
+      <window_info anchor="bottom" id="Messages" order="13" visible="true" weight="0.3266583" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.37292162" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.24175036" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Module Dependencies" order="6" weight="0.3293954" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+      <window_info anchor="right" id="Bean Validation" order="10" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="travis CI" />
+    <MESSAGE value="travis CI build" />
+    <MESSAGE value="change config url" />
+    <MESSAGE value="change config url to localhost" />
+    <MESSAGE value="change .travis" />
+    <MESSAGE value="change back to config" />
+    <MESSAGE value="change .travis.yml" />
+    <MESSAGE value="change to localhost" />
+    <MESSAGE value="change to config" />
+    <MESSAGE value="skip test" />
+    <MESSAGE value="skip test and with simple travis.yml" />
+    <MESSAGE value="change" />
+    <option name="LAST_COMMIT_MESSAGE" value="change" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/service/StatisticsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/domain/ExchangeRatesContainer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/text/DateFormat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-334">
+          <caret line="178" column="22" selection-start-line="178" selection-start-column="22" selection-end-line="178" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/util/Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6163">
+          <caret line="525" column="33" lean-forward="true" selection-start-line="525" selection-start-column="33" selection-end-line="525" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-11.0.1/lib/src.zip!/java.base/java/time/LocalDate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="1370" column="21" selection-start-line="1370" selection-start-column="21" selection-end-line="1370" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/test/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/service/ExchangeRatesServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="52" column="63" selection-start-line="52" selection-start-column="63" selection-end-line="52" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/client/ExchangeRatesClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/service/StatisticsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/service/StatisticsServiceImplTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="69" column="5" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
+          <folding>
+            <element signature="e#2215#2216#0" expanded="true" />
+            <element signature="e#2270#2271#0" expanded="true" />
+            <element signature="e#2346#2347#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/java/com/winnie/statistics/domain/Currency.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="27" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/test/java/com.winnie.statistics/client/ExchangeRatesClientTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="92">
+            <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountservice/src/test/java/com.winnie.accountservice/controller/AccountControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="32" column="13" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountservice/src/test/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/auth-service.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.dev.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authservice/src/test/java/com.winnie.auth/controller/UserControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/statisticsservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/account-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/authservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountservice/src/main/java/com.winnie.accountservice/AccountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/java/com.winnie.config/ConfigApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mongodb/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="56" selection-start-line="56" selection-end-line="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/monitoring.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/monitoring/src/main/java/com.winnie.monitoring/MonitoringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notificationservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="108" selection-start-line="85" selection-start-column="3" selection-end-line="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/java/com/winnie/registry/RegistryApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#347#348#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbinestreamservice/src/test/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/java/com.winnie.gateway/GatewayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/test/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbinestreamservice/src/main/java/com/winnie/turbine/TurbineStreamServiceApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#540#541#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/turbine-stream-service.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbinestreamservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/registry.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gateway/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/src/main/resources/shared/gateway.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="42" selection-start-line="42" selection-end-line="43" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registry/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="18" column="15" lean-forward="true" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/accountservice/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/turbinestreamservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" column="13" lean-forward="true" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/notificationservice/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>notificationservice</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

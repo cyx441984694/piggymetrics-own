@@ -1,0 +1,6 @@
+com\winnie\notification\service\NotificationServiceImplTest.class
+com\winnie\notification\NotificationServiceApplicationTests.class
+com\winnie\notification\repository\RecipientRepositoryTest.class
+com\winnie\notification\service\EmailServiceImplTest.class
+com\winnie\notification\controller\RecipientControllerTest.class
+com\winnie\notification\service\RecipientServiceImplTest.class

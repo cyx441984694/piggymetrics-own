@@ -1,0 +1,9 @@
+com\winnie\auth\repository\UserRepository.class
+com\winnie\auth\AuthApplication.class
+com\winnie\auth\domain\User.class
+com\winnie\auth\service\security\MongoUserDetailsService.class
+com\winnie\auth\config\OAuth2AuthorizationConfig.class
+com\winnie\auth\controller\UserController.class
+com\winnie\auth\service\UserServiceImpl.class
+com\winnie\auth\service\UserService.class
+com\winnie\auth\config\WebSecurityConfig.class

@@ -1,0 +1,6 @@
+com\winnie\statistics\client\ExchangeRatesClientTest.class
+com\winnie\statistics\StatisticsServiceApplicationTests.class
+com\winnie\statistics\service\ExchangeRatesServiceImplTest.class
+com\winnie\statistics\controller\StatisticsControllerTest.class
+com\winnie\statistics\service\StatisticsServiceImplTest.class
+com\winnie\statistics\repository\DataPointRepositoryTest.class

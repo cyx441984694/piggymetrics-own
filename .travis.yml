@@ -1,3 +1,4 @@
+#As the auth-service always needs me to bring up config-service, I skip all testing directly.
 script:
   - echo "skipping tests"
 

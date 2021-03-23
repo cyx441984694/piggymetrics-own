@@ -1,0 +1,5 @@
+com\winnie\auth\AuthApplicationTest.class
+com\winnie\auth\controller\UserControllerTest.class
+com\winnie\auth\repository\UserRepositoryTest.class
+com\winnie\auth\service\security\MongoUserDetailsServiceTest.class
+com\winnie\auth\service\UserServiceTest.class
