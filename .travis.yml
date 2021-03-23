@@ -44,25 +44,25 @@ after_success:
   - docker push $GATEWAY
 
   # AUTH SERVICE
-  - export AUTH_SERVICE=cyx441984694/piggymetrics-own-service
+  - export AUTH_SERVICE=cyx441984694/piggymetrics-own-authservice
   - docker build -t $AUTH_SERVICE:$COMMIT ./auth-service
   - docker tag $AUTH_SERVICE:$COMMIT $AUTH_SERVICE:$TAG
   - docker push $AUTH_SERVICE
 
   # ACCOUNT SERVICE
-  - export ACCOUNT_SERVICE=cyx441984694/piggymetrics-own-accoount-service
+  - export ACCOUNT_SERVICE=cyx441984694/piggymetrics-own-accountservice
   - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
   - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
   - docker push $ACCOUNT_SERVICE
 
   # STATISTICS SERVICE
-  - export STATISTICS_SERVICE=cyx441984694/piggymetrics-own-statistics-service
+  - export STATISTICS_SERVICE=cyx441984694/piggymetrics-own-statisticsservice
   - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
   - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
   - docker push $STATISTICS_SERVICE
 
   # NOTIFICATION_SERVICE
-  - export NOTIFICATION_SERVICE=cyx441984694/piggymetrics-own-notification-service
+  - export NOTIFICATION_SERVICE=cyx441984694/piggymetrics-own-notificationservice
   - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
   - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
   - docker push $NOTIFICATION_SERVICE
@@ -74,7 +74,7 @@ after_success:
   - docker push $MONITORING
 
   # TURBINE STREAM SERVICE
-  - export TURBINE=cyx441984694/piggymetrics-own-turbine-stream-service
+  - export TURBINE=cyx441984694/piggymetrics-own-turbinestreamservice
   - docker build -t $TURBINE:$COMMIT ./turbine-stream-service
   - docker tag $TURBINE:$COMMIT $TURBINE:$TAG
   - docker push $TURBINE
