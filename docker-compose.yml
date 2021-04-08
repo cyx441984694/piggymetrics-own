@@ -13,7 +13,7 @@ services:
   config:
     environment:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-config
+    image: cyx441984694/piggymetrics-own-config
     restart: always
     logging:
       options:
@@ -23,7 +23,7 @@ services:
   registry:
     environment:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-registry
+    image: cyx441984694/piggymetrics-own-registry
     restart: always
     depends_on:
       config:
@@ -38,7 +38,7 @@ services:
   gateway:
     environment:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-gateway
+    image: cyx441984694/piggymetrics-own-gateway
     restart: always
     depends_on:
       config:
@@ -57,7 +57,7 @@ services:
       STATISTICS_SERVICE_PASSWORD: $STATISTICS_SERVICE_PASSWORD
       ACCOUNT_SERVICE_PASSWORD: $ACCOUNT_SERVICE_PASSWORD
       MONGODB_PASSWORD: $MONGODB_PASSWORD
-    image: cyx441984694/piggymetrics-auth-service
+    image: cyx441984694/piggymetrics-own-authservice
     restart: always
     depends_on:
       config:
@@ -70,7 +70,7 @@ services:
   auth-mongodb:
     environment:
       MONGODB_PASSWORD: $MONGODB_PASSWORD
-    image: cyx441984694/piggymetrics-mongodb
+    image: cyx441984694/piggymetrics-own-mongodb
     restart: always
     logging:
       options:
@@ -82,7 +82,7 @@ services:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
       ACCOUNT_SERVICE_PASSWORD: $ACCOUNT_SERVICE_PASSWORD
       MONGODB_PASSWORD: $MONGODB_PASSWORD
-    image: cyx441984694/piggymetrics-account-service
+    image: cyx441984694/piggymetrics-own-accountservice
     restart: always
     depends_on:
       config:
@@ -96,7 +96,7 @@ services:
     environment:
       INIT_DUMP: account-service-dump.js
       MONGODB_PASSWORD: $MONGODB_PASSWORD
-    image: cyx441984694/piggymetrics-mongodb
+    image: cyx441984694/piggymetrics-own-mongodb
     restart: always
     logging:
       options:
@@ -108,7 +108,7 @@ services:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
       MONGODB_PASSWORD: $MONGODB_PASSWORD
       STATISTICS_SERVICE_PASSWORD: $STATISTICS_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-statistics-service
+    image: cyx441984694/piggymetrics-own-statisticsservice
     restart: always
     depends_on:
       config:
@@ -123,7 +123,7 @@ services:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
       MONGODB_PASSWORD: $MONGODB_PASSWORD
       NOTIFICATION_SERVICE_PASSWORD: $NOTIFICATION_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-notification-service
+    image: cyx441984694/piggymetrics-own-notificationservice
     restart: always
     depends_on:
       config:
@@ -134,7 +134,7 @@ services:
         max-file: "10"
 
   notification-mongodb:
-    image: cyx441984694/piggymetrics-mongodb
+    image: cyx441984694/piggymetrics-own-mongodb
     restart: always
     environment:
       MONGODB_PASSWORD: $MONGODB_PASSWORD
@@ -146,7 +146,7 @@ services:
   monitoring:
     environment:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-monitoring
+    image: cyx441984694/piggymetrics-own-monitoring
     restart: always
     depends_on:
       config:
@@ -161,7 +161,7 @@ services:
   turbine-stream-service:
     environment:
       CONFIG_SERVICE_PASSWORD: $CONFIG_SERVICE_PASSWORD
-    image: cyx441984694/piggymetrics-turbine-stream-service
+    image: cyx441984694/piggymetrics-own-turbinestreamservice
     restart: always
     depends_on:
       config:

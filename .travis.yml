@@ -25,67 +25,67 @@ env:
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-  - docker login -u $DOCKER_USER -p $DOCKER_PASS
-
-  #TAG
-  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
-
-  # CONFIG SERVICE
-  - export CONFIG=cyx441984694/piggymetrics-own-config
-  - docker build -t $CONFIG:$COMMIT ./config
-  - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
-  - docker push $CONFIG
-
-  # REGISTRY
-  - export REGISTRY=cyx441984694/piggymetrics-own-registry
-  - docker build -t $REGISTRY:$COMMIT ./registry
-  - docker tag $REGISTRY:$COMMIT $REGISTRY:$TAG
-  - docker push $REGISTRY
-
-  # GATEWAY
-  - export GATEWAY=cyx441984694/piggymetrics-own-gateway
-  - docker build -t $GATEWAY:$COMMIT ./gateway
-  - docker tag $GATEWAY:$COMMIT $GATEWAY:$TAG
-  - docker push $GATEWAY
-
-  # AUTH SERVICE
-  - export AUTH_SERVICE=cyx441984694/piggymetrics-own-authservice
-  - docker build -t $AUTH_SERVICE:$COMMIT ./auth-service
-  - docker tag $AUTH_SERVICE:$COMMIT $AUTH_SERVICE:$TAG
-  - docker push $AUTH_SERVICE
-
-  # ACCOUNT SERVICE
-  - export ACCOUNT_SERVICE=cyx441984694/piggymetrics-own-accountservice
-  - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
-  - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
-  - docker push $ACCOUNT_SERVICE
-
-  # STATISTICS SERVICE
-  - export STATISTICS_SERVICE=cyx441984694/piggymetrics-own-statisticsservice
-  - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
-  - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
-  - docker push $STATISTICS_SERVICE
-
-  # NOTIFICATION_SERVICE
-  - export NOTIFICATION_SERVICE=cyx441984694/piggymetrics-own-notificationservice
-  - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
-  - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
-  - docker push $NOTIFICATION_SERVICE
-
-  # MONITORING
-  - export MONITORING=cyx441984694/piggymetrics-own-monitoring
-  - docker build -t $MONITORING:$COMMIT ./monitoring
-  - docker tag $MONITORING:$COMMIT $MONITORING:$TAG
-  - docker push $MONITORING
-
-  # TURBINE STREAM SERVICE
-  - export TURBINE=cyx441984694/piggymetrics-own-turbinestreamservice
-  - docker build -t $TURBINE:$COMMIT ./turbine-stream-service
-  - docker tag $TURBINE:$COMMIT $TURBINE:$TAG
-  - docker push $TURBINE
-
-  # MONGO DB
-  - export MONGO_DB=cyx441984694/piggymetrics-own-mongodb
-  - docker build -t $MONGO_DB:$COMMIT ./mongodb
-  - docker tag $MONGO_DB:$COMMIT $MONGO_DB:$TAG
-  - docker push $MONGO_DB
+#  - docker login -u $DOCKER_USER -p $DOCKER_PASS
+#
+#  #TAG
+#  - export TAG=`if [ "$TRAVIS_BRANCH" == "master" ]; then echo "latest"; else echo $TRAVIS_BRANCH ; fi`
+#
+#  # CONFIG SERVICE
+#  - export CONFIG=cyx441984694/piggymetrics-own-config
+#  - docker build -t $CONFIG:$COMMIT ./config
+#  - docker tag $CONFIG:$COMMIT $CONFIG:$TAG
+#  - docker push $CONFIG
+#
+#  # REGISTRY
+#  - export REGISTRY=cyx441984694/piggymetrics-own-registry
+#  - docker build -t $REGISTRY:$COMMIT ./registry
+#  - docker tag $REGISTRY:$COMMIT $REGISTRY:$TAG
+#  - docker push $REGISTRY
+#
+#  # GATEWAY
+#  - export GATEWAY=cyx441984694/piggymetrics-own-gateway
+#  - docker build -t $GATEWAY:$COMMIT ./gateway
+#  - docker tag $GATEWAY:$COMMIT $GATEWAY:$TAG
+#  - docker push $GATEWAY
+#
+#  # AUTH SERVICE
+#  - export AUTH_SERVICE=cyx441984694/piggymetrics-own-authservice
+#  - docker build -t $AUTH_SERVICE:$COMMIT ./auth-service
+#  - docker tag $AUTH_SERVICE:$COMMIT $AUTH_SERVICE:$TAG
+#  - docker push $AUTH_SERVICE
+#
+#  # ACCOUNT SERVICE
+#  - export ACCOUNT_SERVICE=cyx441984694/piggymetrics-own-accountservice
+#  - docker build -t $ACCOUNT_SERVICE:$COMMIT ./account-service
+#  - docker tag $ACCOUNT_SERVICE:$COMMIT $ACCOUNT_SERVICE:$TAG
+#  - docker push $ACCOUNT_SERVICE
+#
+#  # STATISTICS SERVICE
+#  - export STATISTICS_SERVICE=cyx441984694/piggymetrics-own-statisticsservice
+#  - docker build -t $STATISTICS_SERVICE:$COMMIT ./statistics-service
+#  - docker tag $STATISTICS_SERVICE:$COMMIT $STATISTICS_SERVICE:$TAG
+#  - docker push $STATISTICS_SERVICE
+#
+#  # NOTIFICATION_SERVICE
+#  - export NOTIFICATION_SERVICE=cyx441984694/piggymetrics-own-notificationservice
+#  - docker build -t $NOTIFICATION_SERVICE:$COMMIT ./notification-service
+#  - docker tag $NOTIFICATION_SERVICE:$COMMIT $NOTIFICATION_SERVICE:$TAG
+#  - docker push $NOTIFICATION_SERVICE
+#
+#  # MONITORING
+#  - export MONITORING=cyx441984694/piggymetrics-own-monitoring
+#  - docker build -t $MONITORING:$COMMIT ./monitoring
+#  - docker tag $MONITORING:$COMMIT $MONITORING:$TAG
+#  - docker push $MONITORING
+#
+#  # TURBINE STREAM SERVICE
+#  - export TURBINE=cyx441984694/piggymetrics-own-turbinestreamservice
+#  - docker build -t $TURBINE:$COMMIT ./turbine-stream-service
+#  - docker tag $TURBINE:$COMMIT $TURBINE:$TAG
+#  - docker push $TURBINE
+#
+#  # MONGO DB
+#  - export MONGO_DB=cyx441984694/piggymetrics-own-mongodb
+#  - docker build -t $MONGO_DB:$COMMIT ./mongodb
+#  - docker tag $MONGO_DB:$COMMIT $MONGO_DB:$TAG
+#  - docker push $MONGO_DB
